@@ -2,12 +2,13 @@
   "name": "flowerstore",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://{haumeale}.github.io/{flowerstore}/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview",
     "lint": "eslint . --fix",
     "format": "prettier --write src/"

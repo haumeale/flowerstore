@@ -14,10 +14,10 @@ export default defineConfig({
     vueJsx(),
     vueDevTools(),
   ],
+  base: "/flowerstore/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
-      publicPath: `/flowerstore/`
     },
   },
 })
