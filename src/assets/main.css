@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-midnight: #5B4A58;
+  --color-banerindicat: #7E6579;
+  --color-flowergreen: #6AAE55;
+  --color-flowergreendark: #4c7d3d;
+  --color-brownfooter: #746471;
+}
