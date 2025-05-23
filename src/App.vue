@@ -11,8 +11,8 @@ import Footer from './components/Footer.vue';
   <header class="text-white bg-midnight">
     <div class="container">
     <ul class="flex items-center justify-between gap-10 p-2">
-      <li class="flex items-center gap-2"><img src="/public/adress.svg" alt=""><p class="text-flowergreen font-bold">г. Сочи,</p><p> ул. Роз, 15 А </p></li>
-      <li class="flex items-center gap-2 font-bold"><img src="/public/phoneg.svg" alt=""> + 7 808 353 53 35  + 7 888 888 88 88</li>
+      <li class="hidden xl:flex items-center gap-2"><img src="/public/adress.svg" alt=""><p class="text-flowergreen font-bold">г. Сочи,</p><p> ул. Роз, 15 А </p></li>
+      <li class="flex items-center gap-2 font-bold"><img src="/public/phoneg.svg" alt="">+ 7 808 353 53 35  <p class="hidden xl:flex">+ 7 888 888 88 88</p> </li>
       <li class="flex items-center gap-2 font-bold"><img src="/public/cart (2).svg" alt=""> 150 000 руб.</li>
     </ul>
   </div>

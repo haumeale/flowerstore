@@ -1,7 +1,7 @@
 <template>
     <div class="flex items-center rounded-md gap-10">
         <div>
-        <img class="" src="/public/card1.png" alt="">
+        <img class="w-100 md:w-full" src="/public/card1.png" alt="">
         <div class="p-5">
         <p class="font-semibold text-lg">Букет из <br> разноцветных роз</p>
         <ul class="flex items-center justify-between py-3">

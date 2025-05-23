@@ -1,5 +1,5 @@
 <template>
-    <div class="relative overflow-hidden">
+    <div class=" relative overflow-hidden">
         <div class="absolute w-full z-10">
       <Navigation />
     </div>
@@ -13,13 +13,13 @@
             :style="`background-image: url(${slide.image})`"
           >
           <div class="uppercase text-center text-midnight ">
-            <h2 class="text-5xl font-bold py-5">
+            <h2 class="text-3xl font-bold py-5 md:text-5xl font-bold py-5">
               <span class="text-flowergreen">{{ slide.titleHighlighted1 }}</span>  <!-- Первое выделенное слово -->
               <span class="">{{ slide.titleHighlighted2 }}</span>     <!-- Второе выделенное слово -->
             </h2>
             <p class="text-lg text-7xl">
               {{ slide.subtitlePart1 }} 
-              <span class="text-8xl">{{ slide.subtitleHighlighted }}</span>  <!-- Выделенный подзаголовок -->
+              <span class="text-4xl md:text-8xl">{{ slide.subtitleHighlighted }}</span>  <!-- Выделенный подзаголовок -->
             </p>
             <button class="uppercase cursor-pointer text-xl mt-8 px-12 py-3 bg-flowergreen text-white rounded hover:bg-flowergreendark transition">
               Каталог
@@ -40,6 +40,29 @@
         ></span>
       </div>
     </div>
+
+    <!-- mobile -->
+    <!-- <div class="relative md:hidden" style="background-image: url('/public/mobilemain.png');">
+        <div class="absolute w-full z-10">
+      <Navigation />
+    </div>
+      <div>
+        <div>
+          <div>
+          <div class="uppercase text-center text-midnight py-45">
+            <h2 class="text-4xl font-bold py-5">
+             <p class="text-flowergreen">Доставка</p> цветов в городе <p class="text-5xl">Сочи</p>
+            </h2>
+            <button class="uppercase cursor-pointer text-xl mt- px-12 py-3 bg-flowergreen text-white rounded hover:bg-flowergreendark transition">
+              Каталог
+            </button> 
+          </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    
+    
   </template>
   
   <script>
@@ -54,7 +77,7 @@
         slides: [
           { image: 'baner1.png', 
           titleHighlighted1: 'Доставка ', 
-          titleHighlighted2: 'цветов в город', 
+          titleHighlighted2: 'цветов в городе', 
         //   subtitlePart1: 'Это ', 
           subtitleHighlighted: 'Сочи', 
            },
@@ -101,6 +124,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
  h2 {
+    font-family: "Shantell Sans", serif;
+ }
+ h3 {
     font-family: "Shantell Sans", serif;
  }
  p {

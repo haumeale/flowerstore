@@ -3,7 +3,7 @@
         <div class="container">
           <div class="flex flex-row my-10 py-30 gap-10">
              <div class="basis-4/4"> <!--  главный див сбоку -->
-                <ul class="flex items-center text-slate-500 gap-10 ">
+                <ul class="hidden md:flex items-center text-slate-500 gap-10 ">
                     <li><p class="text-slate-600">Сортировать по:</p></li>
                     <ul class="flex items-center text-slate-500 gap-10 ">
                     <li>Новизне</li>
@@ -13,8 +13,16 @@
                   </ul>
 
                 </ul>
+                <ul class="flex items-center justify-between text-slate-500 gap-10 md:hidden">
+                    <li>Сортирока/фильтр/поиск</li>
+                    <li><img src="/public/Polygon.svg" alt=""></li>
+                  
+
+                </ul>
+
+
                 <div class="my-8 w-auto h-auto">
-                    <div class="flex flex-wrap gap-10">
+                    <div class="flex flex-wrap justify-center gap-10">
                         <ProductCard />
                         <ProductCard />
                         <ProductCard />
@@ -33,7 +41,7 @@
 
           </div>
             </div>
-            <div class="basis-1/4"> <!--  главный див сбоку -->
+            <div class="hidden md:block basis-1/4"> <!--  главный див сбоку -->
                 <form  action="" method="get">
                 <input class="p-2 rounded-none outline-none" name="s" placeholder="Поиск" type="text">
                 <button type="submit"><img src="/public/searchflower.svg" alt=""></button>

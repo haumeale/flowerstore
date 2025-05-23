@@ -1,12 +1,12 @@
 <template>
     <div class="container">
-        <div class="flex flex-row my-10 py-40 gap-10">
+        <div class="flex-none gap-20 md:flex flex-row my-10 py-40 gap-10">
             <div class="basis-1/3"><!-- первый див сбоку -->
                 <div class="flex justify-between items-center">
                     <h2 class="uppercase text-4xl whitespace-nowrap justify-self-center"><p class="text-flowergreen inline">Фото</p>хвасты</h2>
-                    <a href="" class="text-flowergreen text-lg underline decoration-dotted underline-offset-8 hover:text-flowergreendark transition">Больше фото</a>
+                    <a href="" class="text-flowergreen text-center text-lg underline decoration-dotted underline-offset-8 hover:text-flowergreendark transition">Больше фото</a>
                 </div>
-                <div class="my-6 flex flex-wrap gap-5"> <!-- див с фотками -->
+                <div class="mt-6 md:my-6 flex flex-wrap gap-3 md:gap-5"> <!-- див с фотками -->
                     <div><img src="/public/Rectangle 11.png" alt=""></div>
                     <div><img src="/public/Rectangle 11.1.png" alt=""></div>
                     <div><img src="/public/Rectangle 11.2.png" alt=""></div>
@@ -15,7 +15,7 @@
 
             </div>
             <div class="basis-2/3"> <!-- второй див -->
-                <div class="flex justify-between items-center">
+                <div class="flex mt-10 md:flex justify-between items-center">
                 <h2 class="uppercase text-4xl whitespace-nowrap justify-self-center">Отзывы</h2>
                     <a href="" class="text-flowergreen text-lg underline decoration-dotted underline-offset-8 hover:text-flowergreendark transition">Смотреть все</a>
                 </div>

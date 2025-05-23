@@ -1,9 +1,9 @@
 <template>
     <div class="container">
         <div class="justify-self-center">
-            <h2 class="uppercase text-4xl whitespace-nowrap mb-20 justify-self-center"><p class="text-flowergreen inline">Заказать</p> в 5 шагов</h2>
-            <div class="flex flex-wrap justify-between gap-20 grid grid-cols-2">
-            <div class="flex items-center gap-8">
+            <h2 class="text-3xl uppercase  whitespace-nowrap mb-10 justify-self-center md:text-4xl mb-20"><p class="text-flowergreen inline">Заказать</p> в 5 шагов</h2>
+            <div class="grid gap-20 md:grid-cols-2 justify-items-center md:justify-between">
+            <div class="flex-none text-center md:flex items-center gap-8">
             <div style="position: relative; display: inline-block;">
   <img src="/public/Группа 1.svg" alt="" />
   <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 55px; color: #5B4A58;">
@@ -11,39 +11,39 @@
   </div>
 </div>
 <div>
-    <h3 class="text-2xl mb-4 text-flowergreen font-bold">Выберите букет;</h3>
+    <h3 class="text-xl md:text-2xl my-4 text-flowergreen font-bold">Выберите букет;</h3>
     <p>В каталоге выберите понравившийся букет;</p>
 </div>
 </div>
 
-            <div class="flex items-center gap-8"><div style="position: relative; display: inline-block;">
+            <div class="flex-none text-center md:flex items-center gap-8"><div style="position: relative; display: inline-block;">
   <img src="/public/Группа 1.svg" alt="" />
   <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 55px; color: #5B4A58;">
     2
   </div>
 </div>
 <div class="">
-    <h3 class="text-2xl mb-4 text-flowergreen font-bold">Выберите размер и дополнение;</h3>
+    <h3 class="text-xl md:text-2xl my-4 text-flowergreen font-bold">Выберите размер и дополнение;</h3>
     <p>На странице с описанием букета выберите подходящий размер. По желанию, добавьте к букету мягкую игрушку, сладости или любой другой подарок;</p>
 </div></div>
-            <div class="flex items-center gap-8 "><div style="position: relative; display: inline-block;">
+            <div class="flex-none text-center md:flex items-center gap-8"><div style="position: relative; display: inline-block;">
   <img src="/public/Группа 1.svg" alt="" />
   <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 55px; color: #5B4A58;">
     3
   </div>
 </div>
 <div class="">
-    <h3 class="text-2xl mb-4 text-flowergreen font-bold">Укажите данные для доставки;</h3>
+    <h3 class="text-xl md:text-2xl my-4 text-flowergreen font-bold">Укажите данные для доставки;</h3>
     <p>Заполните форму доставки и оплатите заказ удобным для вас способом;</p>
 </div></div>
-            <div class="flex items-center gap-8"><div style="position: relative; display: inline-block;">
+            <div class="flex-none text-center md:flex items-center gap-8"><div style="position: relative; display: inline-block;">
   <img src="/public/Группа 1.svg" alt="" />
   <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 55px; color: #6AAE55;">
     4
   </div>
 </div>
 <div class="">
-    <h3 class="text-2xl mb-4 text-flowergreen font-bold">Букет готов!</h3>
+    <h3 class="text-xl md:text-2xl my-4 text-flowergreen font-bold">Букет готов!</h3>
     <p>Букет будет собран из свежайших цветов и доставлен получателю к указанной дате и времени.</p>
 </div></div>
 </div>

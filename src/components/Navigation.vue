@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-transparent z-10">
+    <div class=" hidden md:block bg-transparent z-16">
     <div class="container text-midnight z-10">
       <ul class="uppercase flex items-center justify-between py-8">
         <li>Каталог</li>
@@ -14,4 +14,15 @@
       </ul>
     </div>
   </div>
+
+  <div class="flex bg-transparent z-10 md:hidden">
+    <div class="container text-midnight z-10">
+      <ul class="uppercase flex items-center justify-between py-8">
+       <li class="gap-2 flex items-center"><img src="/public/стрелочка.svg" alt="">Меню</li>
+       <li><img src="/public/Лого.svg" alt=""></li>
+       <li class="flex gap-2">Руб. <p>Дол.</p></li>
+      </ul>
+    </div>
+  </div>
+
 </template>
